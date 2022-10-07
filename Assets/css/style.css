@@ -1,0 +1,92 @@
+
+*{
+   margin:0;
+   padding:0;
+   
+}
+body {
+    background:rgb(88, 120, 224);
+}
+
+#headerBackdrop {
+    background-color: rgb(6, 16, 110);
+    height: 100px;
+    width: 100%;
+    position: realtive;
+}
+
+#image {
+    positon:absolute;
+    top:25px;
+    right: 50px;
+}
+
+#name {
+    display:inline-block;
+    margin-top: 15px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    font-size: 60px;
+    background-color: rgb(37, 107, 211);
+}
+
+#image {
+    positon:absolute;
+    top:25px;
+}
+#nav{
+    display:inline-block;
+    position: absolute;
+    right:40px;
+    padding-top: 40px;
+    font-size:25px;
+
+}
+
+#nav span {
+    padding-right: 10px;
+    padding:10px;
+    color: rgb(75, 131, 214)
+}
+
+nav span:hover {
+    background-color: rgb(200, 206, 219);
+    color: black;
+
+}
+
+
+
+
+#aboutme {
+    
+    border-right: black 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#mywork {
+    display:flex;   
+    background-color: red;
+}
+
+.mywork{
+    display:flex;
+    padding:10px;
+    border: 5px black solid;
+    
+    
+
+}
+#contactme {
+    display: flex;
+    background-color: green;
+}
+
+.headers {
+    border-right: black 4px solid;
+    padding: 10px;
+}
